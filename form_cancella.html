@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form cancella</title>
+    <style>
+        textarea {
+            width: 300px; /* Larghezza fissa */
+            height: 150px; /* Altezza fissa */
+            resize: none; /* Disabilita il ridimensionamento */
+        }
+    </style>
+</head>
+<body>
+<form action="http://localhost/Crud/conto.php" method="GET">
+    Inserisci personaggio da eliminare:
+    <br>
+    <input type="text" name="personaggio">
+    <br><br>
+    <textarea name="note" placeholder="Note (Facoltativo)"></textarea>
+     <br><br>
+    <input type="submit" name="cancella" value="cancella">
+</form>
+</body>
+</html>
