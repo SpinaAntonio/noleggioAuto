@@ -1,0 +1,22 @@
+<!-- esempio con select otpion non dinamica. Inoltre la tabella citta in questo modo deve essere 
+rimpita direttamente nel database -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>inserisci</title>
+</head>
+<body>
+Inserisci il nome di un personaggio:<br>
+<form action = "http://localhost/Crud/insert.php" method="GET">
+	<input type="text" name="personaggio"><br><br>
+Citt&agrave:<br>
+<select name="citta">
+	<option value ="PA">Paperopoli</option>
+	<option value = "TO">Topolinia</option>
+</select><br><br>
+<input type="submit" name="inserisci" value="inserisci">
+</form><br><br>
+<a href="op_database.html">home page</a>
+</body>
+</html>
