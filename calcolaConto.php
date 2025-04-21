@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Calcolo Noleggio</title>
+    <link rel="stylesheet" href="stile.css">
     <style>
         textarea {
             width: 300px; /* Larghezza fissa */

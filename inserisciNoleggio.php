@@ -3,6 +3,8 @@
 <html>
 <head>
     <title>Inserimento Noleggio</title>
+    <link rel="stylesheet" href="stile.css">
+
 </head>
 <body>
     <?php
